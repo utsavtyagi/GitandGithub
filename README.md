@@ -72,6 +72,7 @@ git status
 This shows untracked, modified, or staged files.
 
 ### 3. Add Files to Staging Area
+Staging is the process of preparing specific changes in your files to be included in the next commit. Changes are added to the staging area, a temporary space where Git collects changes before committing.
 Add a specific file to the staging area:
 ```bash
 git add file_name
@@ -82,11 +83,13 @@ git add .
 ```
 
 ### 4. Commit Changes
+Committing saves the changes in the staging area into the repository's history. 
 Commit staged changes with a message:
 ```bash
 git commit -m "Your commit message"
 ```
 
+##### Staging is about selecting and organizing the changes you want to include, while committing is about saving those staged changes permanently into the repository.
 ### 5. View Commit History
 View the commit history:
 ```bash
