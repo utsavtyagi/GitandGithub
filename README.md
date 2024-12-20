@@ -16,22 +16,17 @@ GitHub is a web-based platform that uses Git for version control and provides a 
 ### For Windows:
 1. Download Git from [git-scm.com](https://git-scm.com/).
 2. Run the installer and follow the prompts:
-   - Select default editor (e.g., Visual Studio Code).
    - Choose the default branch name (main).
    - Configure PATH settings (use default settings).
    - Complete the installation.
 
-### For macOS:
-- Install Git using Homebrew:
-  ```bash
-  brew install git
-  ```
+
 
 ### For Linux:
 - Use your package manager to install Git:
   ```bash
-  sudo apt update
-  sudo apt install git
+  sudo dnf update
+  sudo dnf install git
   ```
 
 ---
