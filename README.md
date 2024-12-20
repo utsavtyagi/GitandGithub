@@ -254,5 +254,3 @@ git stash apply
 - Regularly push your work to avoid data loss.
 
 ---
-
-By following this guide, you can confidently start using Git and GitHub for version control and collaboration!
